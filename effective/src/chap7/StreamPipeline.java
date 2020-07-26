@@ -16,7 +16,7 @@ public class StreamPipeline {
     }
 
 
-    // 소수 계산 스틀미 파이프라인 - 병렬화에 적합하다. 19초
+    // 소수 계산 스트림 파이프라인 - 병렬화에 적합하다. 19초
     static long pi1(long n){
         return LongStream.rangeClosed(2, n)
                 .mapToObj(BigInteger::valueOf)
@@ -24,7 +24,7 @@ public class StreamPipeline {
                 .count();
     }
 
-    // 소수 계산 스틀미 팡피ㅡ라인 - 병렬화 버전  4초 미르스틴
+    // 소수 계산 스트림 파이프라인 - 병렬화 버전  4초 미르스틴
     static long pi2(long n){
             return LongStream.rangeClosed(2,n)
                     .parallel()
