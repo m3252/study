@@ -8,5 +8,4 @@ public class StreamCharTest {
         "Hello world!".chars().forEach(System.out::print);
         "Hello world!".chars().forEach(x -> System.out.println((char) x));
     }
-    Scanner
 }
