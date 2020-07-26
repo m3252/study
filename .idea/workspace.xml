@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fD2rpn5rUDXXIaZsXxyJuS1CIe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showModules" value="false" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.StreamCharTest">
+    <configuration name="FunctionalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap7.FunctionalTest" />
+      <module name="effective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamCharTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap7.StreamCharTest" />
+      <module name="effective" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Testa" />
+      <module name="effective" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StreamCharTest" />
+        <item itemvalue="Application.FunctionalTest" />
+        <item itemvalue="Application.Testa" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="" />
+      <created>1595738543291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595738543291</updated>
+      <workItem from="1595738544845" duration="6100000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1595745125002</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595745125002</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="477" y="53" key="CommitChangelistDialog2" timestamp="1595745124890">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="477" y="53" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1595745124890" />
+    <state width="1750" height="261" key="GridCell.Tab.0.bottom" timestamp="1595744205520">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="261" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1595744205520" />
+    <state width="1750" height="261" key="GridCell.Tab.0.center" timestamp="1595744205519">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="261" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1595744205519" />
+    <state width="1750" height="261" key="GridCell.Tab.0.left" timestamp="1595744205519">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="261" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1595744205518" />
+    <state width="1750" height="261" key="GridCell.Tab.0.right" timestamp="1595744205519">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="261" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1595744205519" />
+    <state x="383" y="118" key="SettingsEditor" timestamp="1595739448675">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1595739448675" />
+    <state x="273" y="71" key="new project wizard" timestamp="1595739005470">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1595739005470" />
+  </component>
+</project>
