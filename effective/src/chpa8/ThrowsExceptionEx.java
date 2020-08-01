@@ -1,6 +1,7 @@
 package chpa8;
 
 import java.math.BigInteger;
+import java.util.Objects;
 
 public class ThrowsExceptionEx {
 
@@ -10,6 +11,9 @@ public class ThrowsExceptionEx {
 //        BigInteger num = BigInteger.valueOf(-1);
 //        System.out.println(mod(num));
 
+        String nullChk = "널이 아닌데?";
+        nullChk = Objects.requireNonNull(nullChk, "전략");
+        System.out.println(nullChk);
     }
 
     /**
