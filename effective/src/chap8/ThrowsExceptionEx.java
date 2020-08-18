@@ -1,4 +1,4 @@
-package chpa8;
+package chap8;
 
 import java.math.BigInteger;
 import java.util.Objects;
@@ -7,11 +7,11 @@ public class ThrowsExceptionEx {
 
     public static void main(String[] args){
 
-        sort(null , -1, -1);
+        sort(new long[]{1, 2}, -1, -1);
 //        BigInteger num = BigInteger.valueOf(-1);
 //        System.out.println(mod(num));
 
-        String nullChk = "널이 아닌데?";
+        String nullChk = null;
         nullChk = Objects.requireNonNull(nullChk, "전략");
         System.out.println(nullChk);
     }

@@ -1,4 +1,4 @@
-package chpa8;
+package chap8;
 
 import java.util.Date;
 
