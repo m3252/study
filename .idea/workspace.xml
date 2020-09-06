@@ -1,17 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="method">
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="mvc, test code 작성">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD/TDD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD/src/tdd/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD/src/tdd/vo/Dollar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TDD/src/test/tdd/TestTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/src/test/java/hello/hellospring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/META-INF/effective.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/chpa8/DefensivePeriod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/chpa8/DefensiveRadiant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/chpa8/PerfectDefensivePeriod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/chpa8/Period.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/effective/chpa8/ThrowsExceptionEx.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../IdeaProjects/hello-spring">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../IdeaProjects/tdd">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hello-spring">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/../IdeaProjects/tdd">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-spring" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-spring" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hello-spring" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tdd" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tdd" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -19,17 +112,40 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1fD2rpn5rUDXXIaZsXxyJuS1CIe" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TDD/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -38,85 +154,125 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.37126437" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.DefensiveRadiant">
-    <configuration name="Anagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.Anagrams" />
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="com.msc.tdd" />
+      <recent name="tdd" />
+      <recent name="hello.hellospring.repository" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="chap6" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vo" />
+      <recent name="" />
+      <recent name="com.msc.tdd.vo" />
+      <recent name="toss" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TDD/src" />
+      <recent name="$PROJECT_DIR$/TDD" />
+      <recent name="$PROJECT_DIR$/hello-spring/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/clean-code" />
+      <recent name="$PROJECT_DIR$/../IdeaProjects/hello-spring" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MoneyTestTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefensiveRadiant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chpa8.DefensiveRadiant" />
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chpa8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MoneyTestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Mersenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.Mersenne" />
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MoneyTestTest.teestdifferentClassEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
+      <option name="METHOD_NAME" value="teestdifferentClassEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamPipeline" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.StreamPipeline" />
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MoneyTestTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
+      <option name="METHOD_NAME" value="testEquality" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsExceptionEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chpa8.ThrowsExceptionEx" />
-      <module name="effective" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chpa8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="MoneyTestTest.testFrancMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
+      <option name="METHOD_NAME" value="testFrancMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MoneyTestTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
+      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-spring.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="hello.hellospring.HelloSpringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.HelloSpringApplication" />
+      <item itemvalue="JUnit.MoneyTestTest" />
+      <item itemvalue="JUnit.MoneyTestTest.testMultiplication" />
+      <item itemvalue="JUnit.MoneyTestTest.testEquality" />
+      <item itemvalue="JUnit.MoneyTestTest.testFrancMultiplication" />
+      <item itemvalue="JUnit.MoneyTestTest.teestdifferentClassEquality" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DefensiveRadiant" />
-        <item itemvalue="Application.ThrowsExceptionEx" />
-        <item itemvalue="Application.StreamPipeline" />
-        <item itemvalue="Application.Mersenne" />
-        <item itemvalue="Application.Anagrams" />
+        <item itemvalue="JUnit.MoneyTestTest" />
+        <item itemvalue="JUnit.MoneyTestTest.teestdifferentClassEquality" />
+        <item itemvalue="JUnit.MoneyTestTest.testEquality" />
+        <item itemvalue="JUnit.MoneyTestTest.testMultiplication" />
+        <item itemvalue="JUnit.MoneyTestTest.testFrancMultiplication" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -127,7 +283,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1595738543291</updated>
-      <workItem from="1595738544845" duration="12732000" />
+      <workItem from="1595738544845" duration="22887000" />
+      <workItem from="1596946030003" duration="1011000" />
+      <workItem from="1597550646600" duration="114000" />
+      <workItem from="1597555848965" duration="853000" />
+      <workItem from="1597558214191" duration="1252000" />
+      <workItem from="1597733996557" duration="550000" />
+      <workItem from="1597737576184" duration="7387000" />
+      <workItem from="1598156942006" duration="673000" />
+      <workItem from="1598162896456" duration="203000" />
+      <workItem from="1598760675626" duration="10919000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -178,58 +343,191 @@
       <option name="project" value="LOCAL" />
       <updated>1595755874202</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="method">
+      <created>1595755929953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595755929953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="8장">
+      <created>1596269517805</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1596269517805</updated>
+    </task>
+    <task id="LOCAL-00010" summary="9장">
+      <created>1597733890625</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1597733890625</updated>
+    </task>
+    <task id="LOCAL-00011" summary="clean code 6장">
+      <created>1597760486765</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1597760486765</updated>
+    </task>
+    <task id="LOCAL-00012" summary="boot study make project">
+      <created>1597760855266</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597760855266</updated>
+    </task>
+    <task id="LOCAL-00013" summary="spring boot 개념및 활용">
+      <created>1597833891164</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597833891164</updated>
+    </task>
+    <task id="LOCAL-00014" summary="mvc, test code 작성">
+      <created>1597836635755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1597836635755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Stream 병렬화 시간 측정" />
     <MESSAGE value="method" />
-    <option name="LAST_COMMIT_MESSAGE" value="method" />
+    <MESSAGE value="8장" />
+    <MESSAGE value="9장" />
+    <MESSAGE value="clean code 6장" />
+    <MESSAGE value="boot study make project" />
+    <MESSAGE value="spring boot 개념및 활용" />
+    <MESSAGE value="mvc, test code 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvc, test code 작성" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1595754952602">
+    <state x="507" y="161" width="863" height="615" key="#Project_Structure" timestamp="1599369360095">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1595754952602" />
-    <state x="537" y="23" key="CommitChangelistDialog2" timestamp="1595755898299">
+    <state x="949" y="225" width="814" height="669" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1596258031266" />
+    <state x="507" y="161" width="863" height="615" key="#Project_Structure/0.23.1792.1028@0.23.1792.1028" timestamp="1599369360095" />
+    <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599368962396">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="537" y="23" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1595755898299" />
-    <state width="1750" height="261" key="GridCell.Tab.0.bottom" timestamp="1595755922924">
+    <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599368962396" />
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599374743084">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="261" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1595755922924" />
-    <state width="1750" height="261" key="GridCell.Tab.0.center" timestamp="1595755922924">
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1599374743084" />
+    <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599293810401">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="261" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1595755922924" />
-    <state width="1750" height="261" key="GridCell.Tab.0.left" timestamp="1595755922923">
+    <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599293810401" />
+    <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599369500744">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="261" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1595755922923" />
-    <state width="1750" height="261" key="GridCell.Tab.0.right" timestamp="1595755922924">
+    <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369500744" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599294185152">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="261" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1595755922924" />
-    <state x="383" y="118" key="SettingsEditor" timestamp="1595739448675">
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599294185152" />
+    <state x="634" y="292" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596260837910">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1595739448675" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1595752393642">
+    <state x="634" y="292" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1596260837910" />
+    <state x="537" y="23" key="CommitChangelistDialog2" timestamp="1596345474659">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1595752393642" />
-    <state x="273" y="71" key="new project wizard" timestamp="1595739005470">
+    <state x="537" y="23" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1596345474659" />
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1599375961510">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1595739005470" />
-    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1595753208321">
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599375961510" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center" timestamp="1599375961510">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1595753208321" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599375961510" />
+    <state width="1750" height="280" key="GridCell.Tab.0.left" timestamp="1599375961509">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599375961509" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right" timestamp="1599375961510">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599375961510" />
+    <state width="1750" height="280" key="GridCell.Tab.1.bottom" timestamp="1597835134474">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="280" key="GridCell.Tab.1.center" timestamp="1597835134474">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="280" key="GridCell.Tab.1.left" timestamp="1597835134474">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="280" key="GridCell.Tab.1.right" timestamp="1597835134474">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state x="434" y="199" key="Maven.ArtifactSearchDialog" timestamp="1599367881558">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="434" y="199" key="Maven.ArtifactSearchDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599367881558" />
+    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1597737666679">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
+    <state x="383" y="118" key="SettingsEditor" timestamp="1599369453284">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599369453284" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1598162906742">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1598162906742" />
+    <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="556" y="369" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1597550662930" />
+    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599369651333">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369651333" />
+    <state x="594" y="292" width="605" height="490" key="find.popup" timestamp="1599369168283">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="594" y="292" width="605" height="490" key="find.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599369168283" />
+    <state width="600" height="440" key="javadoc.popup" timestamp="1599368088987">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state width="600" height="440" key="javadoc.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599368088987" />
+    <state x="273" y="71" key="new project wizard" timestamp="1599367804587">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599367804587" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1599374671114">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599374671114" />
   </component>
 </project>
