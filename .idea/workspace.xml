@@ -23,7 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="TDD 1 - 11장">
-      <change beforePath="$PROJECT_DIR$/TDD/TDD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TDD/TDD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/TDD.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/MoneyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Dollar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Franc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Money.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TDD/src/test/java/MoneyTestTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +281,9 @@
       <workItem from="1598156942006" duration="673000" />
       <workItem from="1598162896456" duration="203000" />
       <workItem from="1598760675626" duration="11533000" />
-      <workItem from="1599376766809" duration="36000" />
+      <workItem from="1599376766809" duration="508000" />
+      <workItem from="1599377337571" duration="36000" />
+      <workItem from="1599377411862" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -386,7 +397,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599376791238</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="TDD 1 - 11장">
+      <created>1599376817567</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1599376817567</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,14 +514,14 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
-    <state x="383" y="118" key="SettingsEditor" timestamp="1599376663284">
+    <state x="383" y="118" key="SettingsEditor" timestamp="1599377419613">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599376663284" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1599376797247">
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1599376821268">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376797247" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376821268" />
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
