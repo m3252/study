@@ -23,16 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="TDD 1 - 11장">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/TDD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/MoneyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Franc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Money.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/test/java/MoneyTestTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clean-code/clean-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clean-code/clean-code.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/effective/effective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/effective/effective.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/MoneyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/vo/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/vo/Money.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 202.5792.28\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -115,7 +112,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -136,7 +132,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IdeaProjects/tdd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tdd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -175,14 +171,16 @@
       <recent name="$PROJECT_DIR$/clean-code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoneyTest.testSimpleAddition">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -215,21 +213,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTestTest.testEquality" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testCurrency" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
-      <option name="METHOD_NAME" value="testEquality" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
+      <option name="METHOD_NAME" value="testCurrency" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTestTest.testMultiplication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testSimpleAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTestTest" />
-      <option name="METHOD_NAME" value="testMultiplication" />
+      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
+      <option name="METHOD_NAME" value="testSimpleAddition" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,19 +242,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MoneyTestTest" />
-      <item itemvalue="JUnit.MoneyTestTest.testMultiplication" />
-      <item itemvalue="JUnit.MoneyTestTest.testEquality" />
       <item itemvalue="JUnit.MoneyTestTest.teestdifferentClassEquality" />
       <item itemvalue="JUnit.MoneyTest" />
       <item itemvalue="Spring Boot.HelloSpringApplication" />
+      <item itemvalue="JUnit.MoneyTest.testSimpleAddition" />
+      <item itemvalue="JUnit.MoneyTest.testCurrency" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MoneyTest.testSimpleAddition" />
+        <item itemvalue="JUnit.MoneyTest.testCurrency" />
         <item itemvalue="JUnit.MoneyTest" />
         <item itemvalue="JUnit.MoneyTestTest" />
         <item itemvalue="JUnit.MoneyTestTest.teestdifferentClassEquality" />
-        <item itemvalue="JUnit.MoneyTestTest.testEquality" />
-        <item itemvalue="JUnit.MoneyTestTest.testMultiplication" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +282,7 @@
       <workItem from="1599376766809" duration="508000" />
       <workItem from="1599377337571" duration="36000" />
       <workItem from="1599377411862" duration="26000" />
+      <workItem from="1599535478501" duration="472000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -474,6 +473,10 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="180" y="112" key="DiffContextDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599376336067" />
+    <state x="710" y="228" key="FileChooserDialogImpl" timestamp="1599535818757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="710" y="228" key="FileChooserDialogImpl/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535818757" />
     <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1599376761257">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -510,14 +513,16 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="434" y="199" key="Maven.ArtifactSearchDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599367881558" />
-    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1597737666679">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="546" y="223" key="NewModule_or_Project.wizard" timestamp="1599535552118">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
-    <state x="383" y="118" key="SettingsEditor" timestamp="1599377419613">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="546" y="223" key="NewModule_or_Project.wizard/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535552118" />
+    <state x="410" y="96" key="SettingsEditor" timestamp="1599535832468">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
+    <state x="410" y="96" key="SettingsEditor/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535832468" />
     <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1599376821268">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
