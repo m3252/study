@@ -1,3 +1,5 @@
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import vo.Bank;
 import vo.Expression;
 import vo.Money;
@@ -10,6 +12,17 @@ import java.util.Objects;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class MoneyTest {
+
+    private Expression fiveBucks;
+    private Expression tenFrancs;
+    private Bank bank;
+
+    @BeforeEach
+    public void definition(){
+        fiveBucks = Money.dollar(5);
+        tenFrancs = Money.franc(10);
+        bank = new Bank();
+    }
 
     @Test
     public void testMultiplication(){
@@ -50,11 +63,11 @@ public class MoneyTest {
 
     @Test
     public void testPlusReturnsSum(){
-        Money five = Money.dollar(5);
+        Expression five = Money.dollar(5);
         Expression result = five.plus(five);
         Sum sum = (Sum) result;
-        assertEquals(five, sum.augend);
-        assertEquals(five, sum.addend);
+        assertEquals(five, sum.getAugend());
+        assertEquals(five, sum.getAddend());
     }
 
     @Test
@@ -88,6 +101,36 @@ public class MoneyTest {
     @Test
     public void testIdentityRate(){
         assertEquals(1, new Bank().rate("USD", "USD"));
+    }
+
+    @Test
+    public void testMixedAddition(){
+        bank.addRate("CHF", "USD", 2);
+        Money result = bank.reduce(
+                fiveBucks.plus(tenFrancs), "USD");
+        assertEquals(Money.dollar(10), result);
+    }
+
+    @Test
+    public void testSumPlusMoney(){
+        bank.addRate("CHF", "USD", 2);
+        Expression sum = new Sum(fiveBucks, tenFrancs).plus(fiveBucks);
+        Money result = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(15), result);
+    }
+
+    @Test
+    public void testSumTimes(){
+        bank.addRate("CHF", "USD", 2);
+        Expression sum = new Sum(fiveBucks, tenFrancs).times(2);
+        Money result = bank.reduce(sum, "USD");
+        assertEquals(Money.dollar(20), result);
+    }
+
+    @Test
+    public void testPlusCurrencyReturnsMoney(){
+        Expression sum = Money.dollar(1).plus(Money.dollar(1));
+        assertTrue(sum instanceof Money);
     }
 
 }
