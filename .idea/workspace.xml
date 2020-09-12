@@ -22,17 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="TDD 1 - 11장">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="TDD 1 - 11 장">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/TDD.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/MoneyTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Dollar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Franc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/main/java/vo/Money.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TDD/src/test/java/MoneyTestTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,6 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
@@ -176,13 +167,15 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MoneyTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -283,7 +276,8 @@
       <workItem from="1598760675626" duration="11533000" />
       <workItem from="1599376766809" duration="508000" />
       <workItem from="1599377337571" duration="36000" />
-      <workItem from="1599377411862" duration="26000" />
+      <workItem from="1599377411862" duration="825000" />
+      <workItem from="1599378246394" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -404,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599376817567</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="TDD 1 - 11 장">
+      <created>1599378190990</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1599378190990</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +435,8 @@
     <MESSAGE value="spring boot 개념및 활용" />
     <MESSAGE value="mvc, test code 작성" />
     <MESSAGE value="TDD 1 - 11장" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD 1 - 11장" />
+    <MESSAGE value="TDD 1 - 11 장" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD 1 - 11 장" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="161" width="863" height="615" key="#Project_Structure" timestamp="1599376460665">
@@ -458,10 +460,10 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369500744" />
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599294185152">
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599377891692">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599294185152" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599377891692" />
     <state x="634" y="292" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596260837910">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -474,22 +476,22 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="180" y="112" key="DiffContextDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599376336067" />
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1599376761257">
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1599378241868">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
-    <state width="1750" height="280" key="GridCell.Tab.0.center" timestamp="1599376761256">
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599378241868" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center" timestamp="1599378241868">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
-    <state width="1750" height="280" key="GridCell.Tab.0.left" timestamp="1599376761256">
+    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599378241868" />
+    <state width="1750" height="280" key="GridCell.Tab.0.left" timestamp="1599378241868">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
-    <state width="1750" height="280" key="GridCell.Tab.0.right" timestamp="1599376761257">
+    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599378241868" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right" timestamp="1599378241868">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599378241868" />
     <state width="1750" height="280" key="GridCell.Tab.1.bottom" timestamp="1597835134474">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -510,18 +512,18 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="434" y="199" key="Maven.ArtifactSearchDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599367881558" />
-    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1597737666679">
+    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1599378156786">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
-    <state x="383" y="118" key="SettingsEditor" timestamp="1599377419613">
+    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599378156786" />
+    <state x="383" y="118" key="SettingsEditor" timestamp="1599378160115">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1599376821268">
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599378160115" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1599378207649">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376821268" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599378207649" />
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
