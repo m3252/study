@@ -57,6 +57,18 @@ public class CalculatorTest {
         assertTrue(calc.getHistory(0) == 30 );
         calc.clear();
         assertTrue(calc.getHistory(0) == -1);
+        calc.add(10);
+        assertTrue(calc.getHistory(0) != -1);
+    }
 
+    @Test
+    public void 히스토리를_검증한다(){
+        calc.clear();
+        calc.add(10);
+        calc.add(20);
+        calc.add(30);
+        assertEquals(calc.getHistory(0), 10);
+        assertEquals(calc.getHistory(1),20);
+        assertEquals(calc.getHistory(2), 30);
     }
 }
