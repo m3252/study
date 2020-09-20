@@ -1,5 +1,6 @@
 package string_calc;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -25,5 +26,13 @@ class StringCalculatorTest {
     public void 쉼표_콜론_구분자(){
         assertEquals((StringCalculator.splitAndSum("1,2:3")), 6);
     }
+
+    @Test()
+    public void 음수(){
+        Assertions.assertThrows(RuntimeException.class, ()-> {
+            StringCalculator.splitAndSum("-1:2,3");
+        });
+    }
+
 
 }

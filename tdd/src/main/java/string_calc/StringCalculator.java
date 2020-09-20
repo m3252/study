@@ -5,6 +5,7 @@ public class StringCalculator {
     // 1. 들여쓰기(2depth)를 제거하고 else를 제거
     // 2. 메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거
     // 3. 컴포즈 패턴 메소드 적용. (1단계 추상화)
+    // 4. 음수가 들어오면 RuntimeException, 양수를 받는 숫자 객체 추가
     public static int splitAndSum(String text) {
         if (isBlank(text)) {
             return 0;
@@ -20,20 +21,21 @@ public class StringCalculator {
         return text.split(",|:");
     }
 
-    private static int[] toInts(String[] values) {
-        int numbers[] = new int[values.length];
+    private static Positive[] toInts(String[] values) {
+        Positive[] positives = new Positive[values.length];
         for (int i = 0; i < values.length; i++) {
-            numbers[i] = Integer.parseInt(values[i]);
+            positives[i] = new Positive(values[i]);
         }
-        return numbers;
+        return positives;
     }
 
-    private static int sum(int[] numbers) {
-        int result = 0;
-        for (int number : numbers) {
-            result += number;
+
+    private static int sum(Positive[] numbers) {
+        Positive result = new Positive(0);
+        for (Positive number : numbers) {
+            result = result.add(number);
         }
-        return result;
+        return result.getNumber();
     }
 
 }
