@@ -22,20 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="TDD14장">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="계산기 테스트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clean-code/clean-code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/clean-code/clean-code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/effective/effective.iml" beforeDir="false" afterPath="$PROJECT_DIR$/effective/effective.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello-spring/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/hello-spring/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/MoneyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/MoneyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/vo/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/vo/Expression.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/vo/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/vo/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/vo/Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/vo/Sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +66,15 @@
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tdd" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tdd" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -88,8 +86,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -100,7 +98,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 202.5792.28\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -129,7 +127,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tdd" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -139,7 +137,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37126437" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -152,11 +150,11 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/tdd" />
       <recent name="$PROJECT_DIR$/../IdeaProjects/tdd" />
       <recent name="$PROJECT_DIR$/TDD/src" />
       <recent name="$PROJECT_DIR$/TDD" />
+      <recent name="$PROJECT_DIR$/hello-spring/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/clean-code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="vo" />
@@ -168,16 +166,61 @@
       <recent name="chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MoneyTest.testReduceMoney">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.히스토리를_지운다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="히스토리를_지운다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.히스토리를_검증한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="히스토리를_검증한다" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,41 +234,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest.testPlusCurrencyReturnsMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MoneyTest.testReduceMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testPlusCurrencyReturnsMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyTest.testSUmPlusMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testSUmPlusMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyTest.testSumPlusMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testSumPlusMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MoneyTest.testSumTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testSumTimes" />
+      <option name="METHOD_NAME" value="testReduceMoney" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -239,20 +252,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
       <item itemvalue="JUnit.MoneyTest" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
       <item itemvalue="Spring Boot.HelloSpringApplication" />
-      <item itemvalue="JUnit.MoneyTest.testSUmPlusMoney" />
-      <item itemvalue="JUnit.MoneyTest.testSumTimes" />
-      <item itemvalue="JUnit.MoneyTest.testPlusCurrencyReturnsMoney" />
-      <item itemvalue="JUnit.MoneyTest.testSumPlusMoney" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.MoneyTest" />
-        <item itemvalue="JUnit.MoneyTest.testSumTimes" />
-        <item itemvalue="JUnit.MoneyTest.testPlusCurrencyReturnsMoney" />
-        <item itemvalue="JUnit.MoneyTest.testSumPlusMoney" />
-        <item itemvalue="JUnit.MoneyTest.testSUmPlusMoney" />
+        <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -279,8 +290,13 @@
       <workItem from="1598760675626" duration="11533000" />
       <workItem from="1599376766809" duration="508000" />
       <workItem from="1599377337571" duration="36000" />
-      <workItem from="1599377411862" duration="825000" />
-      <workItem from="1599378246394" duration="10523000" />
+      <workItem from="1599377411862" duration="26000" />
+      <workItem from="1599535478501" duration="568000" />
+      <workItem from="1599536065673" duration="1274000" />
+      <workItem from="1599608381325" duration="1275000" />
+      <workItem from="1599792240432" duration="2527000" />
+      <workItem from="1600053646592" duration="893000" />
+      <workItem from="1600163403654" duration="1614000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -401,28 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599376817567</updated>
     </task>
-    <task id="LOCAL-00018" summary="TDD 1 - 11 장">
-      <created>1599378190990</created>
+    <task id="LOCAL-00018" summary="tdd 13장">
+      <created>1599795263328</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1599378190990</updated>
+      <updated>1599795263328</updated>
     </task>
-    <task id="LOCAL-00019" summary="TDD14장">
-      <created>1599898781721</created>
+    <task id="LOCAL-00019" summary="계산기 테스트 추가">
+      <created>1600054351073</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1599898781722</updated>
+      <updated>1600054351073</updated>
     </task>
-    <task id="LOCAL-00020" summary="TDD14장">
-      <created>1599898786316</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1599898786316</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,9 +461,9 @@
     <MESSAGE value="spring boot 개념및 활용" />
     <MESSAGE value="mvc, test code 작성" />
     <MESSAGE value="TDD 1 - 11장" />
-    <MESSAGE value="TDD 1 - 11 장" />
-    <MESSAGE value="TDD14장" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD14장" />
+    <MESSAGE value="tdd 13장" />
+    <MESSAGE value="계산기 테스트 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="계산기 테스트 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="161" width="863" height="615" key="#Project_Structure" timestamp="1599376460665">
@@ -466,27 +475,22 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599368962396" />
-    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1599900512568">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599374743084">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1599900512568" />
     <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1599374743084" />
     <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599293810401">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599293810401" />
-    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599894464609">
-      <screen x="0" y="23" width="1792" height="1028" />
-    </state>
-    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1028@0.23.1792.1028" timestamp="1599894464609" />
     <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599369500744">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369500744" />
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599377891692">
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599294185152">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599377891692" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599294185152" />
     <state x="634" y="292" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596260837910">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -499,68 +503,69 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="180" y="112" key="DiffContextDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599376336067" />
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1599905420406">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="710" y="228" key="FileChooserDialogImpl" timestamp="1599535818757">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599905420406" />
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657998" />
-    <state width="1750" height="280" key="GridCell.Tab.0.center" timestamp="1599905420405">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="710" y="228" key="FileChooserDialogImpl/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535818757" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600054547566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599905420405" />
-    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657997" />
-    <state width="1750" height="280" key="GridCell.Tab.0.left" timestamp="1599905420404">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600054547566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599905420404" />
-    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657997" />
-    <state width="1750" height="280" key="GridCell.Tab.0.right" timestamp="1599905420405">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600054547566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599905420405" />
-    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657998" />
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1599904678875">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600054547566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599904678875" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599795301335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
     <state width="1750" height="280" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1599904678875">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1599795301335">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599904678875" />
     <state width="1750" height="280" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1599904678874">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1599795301335">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599904678874" />
     <state width="1750" height="280" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1599904678875">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1599795301335">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599904678875" />
     <state width="1750" height="280" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
     <state x="434" y="199" key="Maven.ArtifactSearchDialog" timestamp="1599367881558">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="434" y="199" key="Maven.ArtifactSearchDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599367881558" />
-    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1599378156786">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="546" y="223" key="NewModule_or_Project.wizard" timestamp="1599535552118">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599378156786" />
-    <state x="383" y="104" key="SettingsEditor" timestamp="1599896839436">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
+    <state x="546" y="223" key="NewModule_or_Project.wizard/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535552118" />
+    <state x="410" y="96" key="SettingsEditor" timestamp="1600053669341">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="383" y="104" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599896839436" />
-    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599894654030" />
-    <state x="496" y="273" key="Vcs.Push.Dialog.v2" timestamp="1599898819530">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
+    <state x="410" y="96" key="SettingsEditor/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600053669341" />
+    <state x="531" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600054367892">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1599898819530" />
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599378207649" />
-    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599902710879">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599902710879" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376821268" />
+    <state x="531" y="254" key="Vcs.Push.Dialog.v2/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054367892" />
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -569,15 +574,11 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369651333" />
-    <state x="1076" y="166" width="676" height="701" key="dock-window-1" timestamp="1599894530399">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="636" y="272" width="649" height="536" key="find.popup" timestamp="1599625540537">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1076" y="166" width="676" height="701" key="dock-window-1/0.23.1792.1028@0.23.1792.1028" timestamp="1599894530399" />
-    <state x="594" y="293" width="605" height="534" key="find.popup" timestamp="1599899728622">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="594" y="293" width="605" height="534" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599899728622" />
     <state x="594" y="292" width="605" height="490" key="find.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599369168283" />
+    <state x="636" y="272" width="649" height="536" key="find.popup/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599625540537" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1599368088987">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -586,18 +587,9 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599367804587" />
-    <state x="595" y="343" key="refactoring.ChangeSignatureDialog" timestamp="1599901709647">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1599374671114">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="595" y="343" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599901709647" />
-    <state x="561" y="265" key="run.anything.popup" timestamp="1599894680956">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599894680956" />
-    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup" timestamp="1599905250718">
-      <screen x="0" y="0" width="1792" height="1120" />
-    </state>
-    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599905250718" />
-    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599894530155" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599374671114" />
   </component>
 </project>
