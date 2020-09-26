@@ -8,11 +8,12 @@ import java.util.Optional;
 public class Calculator {
 
     private int value = 0;
-    private List<Integer> historyList = new ArrayList<>();
+    private List<Integer> historyList;
 
     Calculator(){ }
     Calculator(int value){
         this.value = value;
+        historyList = new ArrayList<>();
     }
     public int getValue(){
         return value;
