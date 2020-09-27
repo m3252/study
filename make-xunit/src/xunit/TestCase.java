@@ -12,11 +12,18 @@ public class TestCase {
 
     public void run() {
 
+        setUp();
+
+
         try {
             Method method = getClass().getMethod(name);
             method.invoke(this); //실행
         } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public void setUp(){
+
     }
 }
