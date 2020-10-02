@@ -1,8 +1,21 @@
 package bowling;
 
+import java.util.List;
+
 public class BowlingPlayer extends Bowling{
 
-    public BowlingPlayer(){
+    private String name;
 
+    public String getName() {
+        return name;
     }
+
+    public BowlingPlayer(String name){
+        this.name = name;
+    }
+
+    public void pitch(){
+        setPitchingCount(getPitchingCount() - 1);
+    }
+
 }

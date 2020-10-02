@@ -1,4 +1,4 @@
-package vo;
+package money;
 
 import java.util.Hashtable;
 

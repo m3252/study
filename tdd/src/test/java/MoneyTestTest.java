@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import vo.Money;
+import money.Money;
 
 import static org.junit.jupiter.api.Assertions.*;
 

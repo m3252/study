@@ -15,6 +15,27 @@ public class Bowling {
         this.frame = frameCalc();
     }
 
+    public void setPin(int pin) {
+        this.pin = pin;
+    }
+
+    public void setPitchingCount(int pitchingCount) {
+        if(this.pitchingCount == 0){
+            throw new RuntimeException("투구 횟수가 초과되었습니다.");
+        }
+        int nowFrame = getFrame();
+        this.pin -= downPin();
+        this.pitchingCount = pitchingCount;
+        this.frame = pitchingCount / 2;
+        if(nowFrame != getFrame()){
+            this.pin =10;
+        }
+    }
+
+    public void setFrame(int frame) {
+        this.frame = frame;
+    }
+
     public int getPin(){
         return pin;
     }
@@ -27,18 +48,12 @@ public class Bowling {
         return frame;
     }
 
-    public void pitch(){
-        int nowFrame = frameCalc();
-        this.pin -= (int)((Math.random()*10000)%10);
-        this.pitchingCount -= 1;
-        this.frame = pitchingCount / 2;
-        if(nowFrame != frameCalc()){
-            this.pin = 10;
-        }
-    }
-
     private int frameCalc(){
         return this.pitchingCount / 2;
+    }
+
+    public int downPin(){
+        return (int)((Math.random()*10000)%10);
     }
 
 }
