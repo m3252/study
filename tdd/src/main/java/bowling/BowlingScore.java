@@ -1,5 +1,9 @@
 package bowling;
 
-public class BowlingScore extends Bowling{
+import java.util.List;
+
+public interface BowlingScore{
+
+    int getScore();
 
 }
