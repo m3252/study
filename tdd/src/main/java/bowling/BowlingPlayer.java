@@ -16,6 +16,6 @@ public class BowlingPlayer extends Bowling{
     }
 
     public void pitch(){
-        setPitchingCount(getPitchingCount() - 1);
+        setPitchCount(getPitchCount() - 1);
     }
 }
