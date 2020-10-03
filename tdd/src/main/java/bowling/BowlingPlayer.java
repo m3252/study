@@ -1,8 +1,5 @@
 package bowling;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class BowlingPlayer extends Bowling{
 
     private String name;
@@ -16,6 +13,6 @@ public class BowlingPlayer extends Bowling{
     }
 
     public void pitch(){
-        setPitchCount(getPitchCount() - 1);
+        setPitchCount();
     }
 }
