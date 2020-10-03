@@ -26,49 +26,38 @@ public class BowlingTest {
         BowlingPlayer bp = new BowlingPlayer("Test");
         assertTrue(bp.getPin() == 10); // 투구전 핀은 10개
         assertTrue(bp.getFrame() == 1); // 프레임은 1로 시작
-        assertTrue(bp.getPitchCount() == 21);
+        assertTrue(bp.getPitchCount() == 21); // 21회로 시작
         bp.pitch(); // 첫 번째 투구
-        assertTrue(bp.getPitchCount() == 20);
-        assertTrue(bp.getFrame() == 1);
-        bp.pitch(); // 두 번째 투구
-        assertTrue(bp.getPitchCount() == 19);
-        assertTrue(bp.getPin() == 10);
-        assertTrue(bp.getFrame() == 2);
-        bp.pitch(); // 세 번째 투구
-        assertTrue(bp.getFrame() == 2);
+        if(bp.getPin() != 10){
+            assertTrue(bp.getPitchCount() == 20);
+            assertTrue(bp.getFrame() == 1);
+        }else{
+            assertTrue(bp.getPitchCount() == 19);
+            assertTrue(bp.getFrame() == 2);
+        }
     }
 
     @Test
     void 투구는_총_21(){
         BowlingPlayer bp = new BowlingPlayer("Test");
-        BowlingPlayer bp2 = new BowlingPlayer("Test2");
         RuntimeException e
                 = assertThrows(RuntimeException.class, () ->{
-            for(int i=1; i<=22; i++){
+            while(bp.getPitchCount() > 0){
                 bp.pitch();
             }
+            bp.pitch();
         });
         assertThat(e.getMessage()).isEqualTo("투구 횟수가 초과되었습니다.");
-        bp2.pitch();
     }
 
     @Test
-    void 점수쌓기_테스트(){
+    void 넘어진_핀_테스트(){
         int sum = 0;
         int count = 0;
         BowlingPlayer player1 = new BowlingPlayer("player1");
-        for(int i=1; i<=21; i++){
-            count ++;
-            player1.pitch(); //공을 굴리면
-            sum += player1.getDownPin(i-1);
-            assertThat(sum < 10);
-            if(count == 2 && i != 20)
-                sum = 0;
+        while(player1.getPitchCount() > 0){
+            player1.pitch();
         }
-    }
-
-    @Test
-    void 점수계산기_테스트(){
-        BowlingPlayer player1 = new BowlingPlayer("player1");
+        System.out.println(player1.getDownPins());
     }
 }
