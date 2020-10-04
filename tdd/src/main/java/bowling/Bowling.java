@@ -2,16 +2,16 @@ package bowling;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
-public class Bowling extends BowlingScore{
+/**
+ * 최상위 수준의 모듈
+ */
+public class Bowling{
 
     private int pin;
-    private int pitchCount
-;
+    private int pitchCount;
     private int frame;
     private final List<Integer> downPins;
-    private List<BowlingScore> score;
 
     public Bowling(){
         this.pin = 10;
@@ -87,17 +87,15 @@ public class Bowling extends BowlingScore{
         /**
          * 10프레임 이후
          */
-        if(nowFrame == 10){
-            if(pitchCount == 2 && downPin == 10){
+        if(nowFrame == 10 && pitchCount == 2 && downPin == 10) {
+            pin = 10;
+        }
+        if(nowFrame == 10 && pitchCount == 1){
+            if(getDownPin(18) + getDownPin(19) == 10){
                 pin = 10;
-            }
-            if(pitchCount == 1){
-                if(getDownPin(18) + getDownPin(19) >= 10){
-                    pin = 10;
-                }else{
-                    pitchCount -= 1;
-                    downPins.add(0);
-                }
+            }else if(getDownPin(18) != 10){
+                pitchCount -= 1;
+                downPins.add(0);
             }
         }
     }

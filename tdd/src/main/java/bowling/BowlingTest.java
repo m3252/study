@@ -60,4 +60,14 @@ public class BowlingTest {
         }
         System.out.println(player1.getDownPins());
     }
+
+    @Test
+    void 점수테스트(){
+        BowlingPlayer player1 = new BowlingPlayer("player1");
+        BowlingPlayer player2 = new BowlingPlayer("player2");
+        while(player1.getPitchCount() > 0){
+            player1.pitch();
+        }
+        System.out.println(player1.toString());
+    }
 }
