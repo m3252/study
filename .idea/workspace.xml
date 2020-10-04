@@ -22,9 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="계산기 테스트 추가">
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="점수계산기 테스트중">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,15 +68,6 @@
                 <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
                 <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tdd" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="tdd" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -85,9 +78,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="Kotlin File" />
+        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -98,7 +92,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 202.5792.28\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -109,7 +103,6 @@
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
     <option name="showModules" value="false" />
   </component>
   <component name="PropertiesComponent">
@@ -126,8 +119,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tdd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tdd/src/main/java/bowling" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -137,108 +131,132 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.37126437" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="xunit" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="hello.hellospring.service" />
+      <recent name="string_calc" />
       <recent name="" />
       <recent name="com.msc.tdd" />
       <recent name="tdd" />
-      <recent name="hello.hellospring.repository" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../IdeaProjects/tdd" />
-      <recent name="$PROJECT_DIR$/TDD/src" />
-      <recent name="$PROJECT_DIR$/TDD" />
-      <recent name="$PROJECT_DIR$/hello-spring/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/clean-code" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bowling" />
+      <recent name="hello.hellospring.service" />
+      <recent name="string_calc" />
       <recent name="vo" />
       <recent name="" />
-      <recent name="com.msc.tdd.vo" />
-      <recent name="toss" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tdd/src/main/java/bowling" />
+      <recent name="$PROJECT_DIR$/make-xunit" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/tdd" />
+      <recent name="$PROJECT_DIR$/../IdeaProjects/tdd" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="xunit" />
       <recent name="chap6" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MoneyTest.testReduceMoney">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+  <component name="RunManager" selected="JUnit.BowlingTest.점수테스트">
+    <configuration name="BowlingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingTest.점수테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorTest.히스토리를_지운다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="히스토리를_지운다" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="METHOD_NAME" value="점수테스트" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest.히스토리를_검증한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingTest.존재하지않는_인덱스일땐" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="bowling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
-      <option name="METHOD_NAME" value="히스토리를_검증한다" />
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="METHOD_NAME" value="존재하지않는_인덱스일땐" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingTest.투구와_프레임_검증" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="METHOD_NAME" value="투구와_프레임_검증" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoneyTest.testReduceMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingTest.투구는_총_21" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MoneyTest" />
-      <option name="METHOD_NAME" value="testReduceMoney" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="METHOD_NAME" value="투구는_총_21" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingTest.넘어진_핀_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bowling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bowling" />
+      <option name="MAIN_CLASS_NAME" value="bowling.BowlingTest" />
+      <option name="METHOD_NAME" value="넘어진_핀_테스트" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -252,18 +270,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
-      <item itemvalue="JUnit.MoneyTest" />
-      <item itemvalue="JUnit.CalculatorTest" />
-      <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
+      <item itemvalue="JUnit.BowlingTest" />
+      <item itemvalue="JUnit.BowlingTest.투구와_프레임_검증" />
+      <item itemvalue="JUnit.BowlingTest.투구는_총_21" />
+      <item itemvalue="JUnit.BowlingTest.점수테스트" />
+      <item itemvalue="JUnit.BowlingTest.존재하지않는_인덱스일땐" />
       <item itemvalue="Spring Boot.HelloSpringApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
-        <item itemvalue="JUnit.CalculatorTest" />
-        <item itemvalue="JUnit.MoneyTest" />
-        <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
+        <item itemvalue="JUnit.BowlingTest.점수테스트" />
+        <item itemvalue="JUnit.BowlingTest.존재하지않는_인덱스일땐" />
+        <item itemvalue="JUnit.BowlingTest" />
+        <item itemvalue="JUnit.BowlingTest.투구는_총_21" />
+        <item itemvalue="JUnit.BowlingTest.투구와_프레임_검증" />
       </list>
     </recent_temporary>
   </component>
@@ -290,13 +310,11 @@
       <workItem from="1598760675626" duration="11533000" />
       <workItem from="1599376766809" duration="508000" />
       <workItem from="1599377337571" duration="36000" />
-      <workItem from="1599377411862" duration="26000" />
-      <workItem from="1599535478501" duration="568000" />
-      <workItem from="1599536065673" duration="1274000" />
-      <workItem from="1599608381325" duration="1275000" />
-      <workItem from="1599792240432" duration="2527000" />
-      <workItem from="1600053646592" duration="893000" />
-      <workItem from="1600163403654" duration="1614000" />
+      <workItem from="1599377411862" duration="825000" />
+      <workItem from="1599378246394" duration="18299000" />
+      <workItem from="1601204019013" duration="1778000" />
+      <workItem from="1601450574492" duration="52551000" />
+      <workItem from="1601824277685" duration="4508000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -417,21 +435,196 @@
       <option name="project" value="LOCAL" />
       <updated>1599376817567</updated>
     </task>
-    <task id="LOCAL-00018" summary="tdd 13장">
-      <created>1599795263328</created>
+    <task id="LOCAL-00018" summary="TDD 1 - 11 장">
+      <created>1599378190990</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1599795263328</updated>
+      <updated>1599378190990</updated>
     </task>
-    <task id="LOCAL-00019" summary="계산기 테스트 추가">
-      <created>1600054351073</created>
+    <task id="LOCAL-00019" summary="TDD14장">
+      <created>1599898781721</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1600054351073</updated>
+      <updated>1599898781722</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="TDD14장">
+      <created>1599898786316</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1599898786316</updated>
+    </task>
+    <task id="LOCAL-00021" summary="계산기">
+      <created>1600013706810</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600013706810</updated>
+    </task>
+    <task id="LOCAL-00022" summary="의식적인 리팩토링 걔산기 예제">
+      <created>1600570706609</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600570706609</updated>
+    </task>
+    <task id="LOCAL-00023" summary="들여쓰기(2)를 제거하고 else를 제거한 버전">
+      <created>1600571003853</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600571003853</updated>
+    </task>
+    <task id="LOCAL-00024" summary="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거">
+      <created>1600571419652</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600571419652</updated>
+    </task>
+    <task id="LOCAL-00025" summary="solid 연습">
+      <created>1601123905862</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601123905862</updated>
+    </task>
+    <task id="LOCAL-00026" summary="dip 추가">
+      <created>1601174188516</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601174188516</updated>
+    </task>
+    <task id="LOCAL-00027" summary="1. Test Code를 만들었고 Test Code를 Test할 WasRun을 만들었다.">
+      <created>1601175527402</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601175527402</updated>
+    </task>
+    <task id="LOCAL-00028" summary="setUp을 먼저 실행">
+      <created>1601176357015</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601176357015</updated>
+    </task>
+    <task id="LOCAL-00029" summary="xUnit 완성">
+      <created>1601180231754</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1601180231754</updated>
+    </task>
+    <task id="LOCAL-00030" summary="@Test 어노테이션 추가">
+      <created>1601220845444</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601220845445</updated>
+    </task>
+    <task id="LOCAL-00031" summary="볼링게임 TDD 파트 1.&#10;[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;&#10;[] 볼링의 하위 객체로는 볼링 플레이어와 볼링 점수 계산기가 존재한다. (플레이어와 점수 계산기는 1 : 1 관계를 갖는다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.&#10;[] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다.&#10;[] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.">
+      <created>1601459408478</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601459408478</updated>
+    </task>
+    <task id="LOCAL-00032" summary="할 일 목록 추가&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.">
+      <created>1601459927377</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601459927377</updated>
+    </task>
+    <task id="LOCAL-00033" summary="MemberService 추가, DI 개념 확인">
+      <created>1601463892093</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601463892093</updated>
+    </task>
+    <task id="LOCAL-00034" summary="컴포턴트 스캔와 의존성 주입">
+      <created>1601536758346</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601536758346</updated>
+    </task>
+    <task id="LOCAL-00035" summary="컴포턴트 스캔와 의존성 주입 javaConfig">
+      <created>1601537121609</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601537121609</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Old Java DB 커넥션을 확인하였고,&#10;다형성(DI)의 활용성에 대해 이해하였다.">
+      <created>1601544753912</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601544753912</updated>
+    </task>
+    <task id="LOCAL-00037" summary="JDBC Template에 대해 공부하였다.">
+      <created>1601546813074</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601546813074</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[] 볼링을 상속받는 객체로는 볼링 플레이어와 볼링 점수 계산기가 존재한다.&#10;   (플레이어와 점수 계산기는 1 : 1 관계를 갖는다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.&#10;[] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다.">
+      <created>1601623069380</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1601623069380</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;[v] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[v] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다.&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.">
+      <created>1601637033723</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1601637033724</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[] 스트라이크, 스페어등 볼링 룰을 적용한다. &#10;[] 계산된 점수는 점수 표출기에 의해 보여져야 한다.&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[] 플레이어와 점수 계산기는 1 : 1 관계를 갖는다.">
+      <created>1601710707401</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1601710707401</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[v] 스트라이크, 스페어등 볼링 룰을 적용한다.">
+      <created>1601722481268</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601722481268</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[v] 스트라이크, 스페어등 볼링 룰을 적용한다.">
+      <created>1601722486986</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1601722486986</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.">
+      <created>1601806853149</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1601806853149</updated>
+    </task>
+    <task id="LOCAL-00044" summary="점수계산기 테스트중">
+      <created>1601829217964</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1601829217964</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,46 +644,73 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="first commit" />
-    <MESSAGE value="Stream 병렬화 시간 측정" />
-    <MESSAGE value="method" />
-    <MESSAGE value="8장" />
-    <MESSAGE value="9장" />
-    <MESSAGE value="clean code 6장" />
-    <MESSAGE value="boot study make project" />
-    <MESSAGE value="spring boot 개념및 활용" />
-    <MESSAGE value="mvc, test code 작성" />
-    <MESSAGE value="TDD 1 - 11장" />
-    <MESSAGE value="tdd 13장" />
-    <MESSAGE value="계산기 테스트 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="계산기 테스트 추가" />
+    <MESSAGE value="TDD14장" />
+    <MESSAGE value="계산기 예제" />
+    <MESSAGE value="계산기" />
+    <MESSAGE value="의식적인 리팩토링 걔산기 예제" />
+    <MESSAGE value="들여쓰기(2)를 제거하고 else를 제거한 버전" />
+    <MESSAGE value="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거" />
+    <MESSAGE value="solid 연습" />
+    <MESSAGE value="dip 추가" />
+    <MESSAGE value="1. Test Code를 만들었고 Test Code를 Test할 WasRun을 만들었다." />
+    <MESSAGE value="setUp을 먼저 실행" />
+    <MESSAGE value="xUnit 완성" />
+    <MESSAGE value="@Test 어노테이션 추가" />
+    <MESSAGE value="볼링게임 TDD 파트 1.&#10;[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;&#10;[] 볼링의 하위 객체로는 볼링 플레이어와 볼링 점수 계산기가 존재한다. (플레이어와 점수 계산기는 1 : 1 관계를 갖는다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.&#10;[] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다.&#10;[] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다." />
+    <MESSAGE value="할 일 목록 추가&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다." />
+    <MESSAGE value="MemberService 추가, DI 개념 확인" />
+    <MESSAGE value="컴포턴트 스캔와 의존성 주입" />
+    <MESSAGE value="컴포턴트 스캔와 의존성 주입 javaConfig" />
+    <MESSAGE value="Old Java DB 커넥션을 확인하였고,&#10;다형성(DI)의 활용성에 대해 이해하였다." />
+    <MESSAGE value="JDBC Template에 대해 공부하였다." />
+    <MESSAGE value="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[] 볼링을 상속받는 객체로는 볼링 플레이어와 볼링 점수 계산기가 존재한다.&#10;   (플레이어와 점수 계산기는 1 : 1 관계를 갖는다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다.&#10;[] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다." />
+    <MESSAGE value="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;[v] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[v] 볼링의 프레임과 핀은 점수 계산기와 연관이 있는데 이것은 나중에 생각해본다.&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다." />
+    <MESSAGE value="[] 스트라이크, 스페어등 볼링 룰을 적용한다. &#10;[] 계산된 점수는 점수 표출기에 의해 보여져야 한다.&#10;[] 투구(pitch) 후 쓰러진 pin은 BowlingScore에 전달되어야 한다.&#10;[] 플레이어와 점수 계산기는 1 : 1 관계를 갖는다." />
+    <MESSAGE value="[v] 스트라이크, 스페어등 볼링 룰을 적용한다." />
+    <MESSAGE value="[v] 실패하는 테스트를 만들고 스텁으로 우선 빠르게 테스트를 작성할 것 이다.&#10;[v] 볼링 객체를 만든다.&#10;[v] 볼링 객체는 10개의 핀을 가지고 있고 21번의 투구 기회가 있다.&#10;[v] 볼링의 프레임은 총 10 프레임이고 한 프레임이 끝나면 핀의 갯수는 10개로 초기화된다.&#10;[v] 투구 2번 끝나면 한 프레임도 끝낸다. 단 마지막 프레임은 3번의 투구가 필요하다.&#10;[v] 투구(pitch)는 Bowling Player 객체가 가지고 있어야 한다.&#10;[v] 한 플레이어가 투구를 21회 이상 시도하면 예외를 뱉어준다.&#10;[v] pitch() 수정하여 SRP 지키기&#10;&#10;[] 볼링 점수 계산기를 만든다. (스트라이크, 스페어를 고려한다.)&#10;[] 점수 계산기를 통해 계산된 점수는 점수 표출기를 통해 점수를 볼 수 있어야 한다." />
+    <MESSAGE value="점수계산기 테스트중" />
+    <option name="LAST_COMMIT_MESSAGE" value="점수계산기 테스트중" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="161" width="863" height="615" key="#Project_Structure" timestamp="1599376460665">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="929" y="225" width="863" height="669" key="#Project_Structure" timestamp="1601450605458">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="949" y="225" width="814" height="669" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1596258031266" />
+    <state x="929" y="225" width="863" height="669" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1601450605458" />
     <state x="507" y="161" width="863" height="615" key="#Project_Structure/0.23.1792.1028@0.23.1792.1028" timestamp="1599376460665" />
+    <state x="259" y="396" key="#SQL_Dialects" timestamp="1601546234235">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="259" y="396" key="#SQL_Dialects/0.0.1792.1120@0.0.1792.1120" timestamp="1601546234235" />
     <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599368962396">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599368962396" />
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599374743084">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1601827140574">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1599374743084" />
+    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1601827140574" />
+    <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1601806626684" />
     <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599293810401">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599293810401" />
+    <state x="520" y="231" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1601545737218">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="520" y="231" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601545737218" />
+    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1599894464609">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="666" y="409" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1792.1028@0.23.1792.1028" timestamp="1599894464609" />
     <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599369500744">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="669" y="277" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369500744" />
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599294185152">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="634" y="292" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601453697639">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599294185152" />
+    <state x="634" y="292" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601453697639" />
+    <state x="634" y="291" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599377891692" />
     <state x="634" y="292" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1596260837910">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
@@ -503,93 +723,123 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="180" y="112" key="DiffContextDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599376336067" />
-    <state x="710" y="228" key="FileChooserDialogImpl" timestamp="1599535818757">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom" timestamp="1601829248511">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="710" y="228" key="FileChooserDialogImpl/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535818757" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1600054547566">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601829072686" />
+    <state width="1750" height="317" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1601829248511" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center" timestamp="1601829248511">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1600054547566">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601829072685" />
+    <state width="1750" height="317" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1601829248511" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left" timestamp="1601829248511">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1600054547566">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601829072684" />
+    <state width="1750" height="317" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1601829248511" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right" timestamp="1601829248511">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761256" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1600054547566">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601829072685" />
+    <state width="1750" height="317" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1601829248511" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1601809547579">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599376761257" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054547566" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1599795301335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1601722198813" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1601809547579" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1601809547579">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1599795301335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1601722198812" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1601809547579" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1601809547579">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1599795301335">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1601722198812" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1601809547579" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1601809547579">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state width="1750" height="280" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1599795301335">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1750" height="280" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1601722198813" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1601809547579" />
     <state x="434" y="199" key="Maven.ArtifactSearchDialog" timestamp="1599367881558">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="434" y="199" key="Maven.ArtifactSearchDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599367881558" />
-    <state x="546" y="223" key="NewModule_or_Project.wizard" timestamp="1599535552118">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="510" y="243" key="NewModule_or_Project.wizard" timestamp="1599378156786">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1597737666679" />
-    <state x="546" y="223" key="NewModule_or_Project.wizard/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599535552118" />
-    <state x="410" y="96" key="SettingsEditor" timestamp="1600053669341">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="510" y="243" key="NewModule_or_Project.wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599378156786" />
+    <state x="383" y="104" key="SettingsEditor" timestamp="1601174495062">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
-    <state x="410" y="96" key="SettingsEditor/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600053669341" />
-    <state x="531" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600054367892">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="383" y="104" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1601174495062" />
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599894654030" />
+    <state x="722" y="480" key="VCS.ChangelistChooser" timestamp="1601542940042">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376821268" />
-    <state x="531" y="254" key="Vcs.Push.Dialog.v2/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054367892" />
+    <state x="722" y="480" key="VCS.ChangelistChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1601542940042" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2" timestamp="1601806857297">
+      <screen x="0" y="23" width="1792" height="1028" />
+    </state>
+    <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1601722490892" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1601806857297" />
+    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599902710879">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599902710879" />
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1597550662930" />
-    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599369651333">
+    <state x="433" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1601462115207">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="433" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1601462115207" />
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601462287719">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="694" y="481" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1792.1120@0.0.1792.1120" timestamp="1601462287719" />
+    <state x="656" y="334" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1601462562339">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="656" y="334" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601462562339" />
+    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369651333" />
+    <state x="1076" y="166" width="676" height="701" key="dock-window-1" timestamp="1599894530399">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
-    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369651333" />
-    <state x="636" y="272" width="649" height="536" key="find.popup" timestamp="1599625540537">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1076" y="166" width="676" height="701" key="dock-window-1/0.23.1792.1028@0.23.1792.1028" timestamp="1599894530399" />
+    <state x="634" y="315" key="extract.method.dialog" timestamp="1601462341013">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="634" y="315" key="extract.method.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601462341013" />
+    <state x="594" y="293" width="605" height="548" key="find.popup" timestamp="1601710654396">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="594" y="293" width="605" height="548" key="find.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1601710654396" />
     <state x="594" y="292" width="605" height="490" key="find.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599369168283" />
-    <state x="636" y="272" width="649" height="536" key="find.popup/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599625540537" />
     <state width="600" height="440" key="javadoc.popup" timestamp="1599368088987">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state width="600" height="440" key="javadoc.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599368088987" />
-    <state x="273" y="71" key="new project wizard" timestamp="1599367804587">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="273" y="52" key="new project wizard" timestamp="1601174490001">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="273" y="52" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1601174490001" />
     <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599367804587" />
-    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1599374671114">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="595" y="343" key="refactoring.ChangeSignatureDialog" timestamp="1601179179094">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599374671114" />
+    <state x="595" y="343" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1601179179094" />
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup" timestamp="1601798990549">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="265" width="670" height="675" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1601798990549" />
+    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup" timestamp="1601826755425">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1601826755425" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599894530155" />
   </component>
 </project>
