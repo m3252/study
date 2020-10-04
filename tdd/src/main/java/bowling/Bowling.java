@@ -17,7 +17,7 @@ public class Bowling{
         this.pin = 10;
         this.pitchCount = 21;
         this.frame = 1;
-        this.downPins = new ArrayList<>();
+        this.downPins = new ArrayList<>(21);
     }
 
     public void setPitchCount() {

@@ -1,6 +1,10 @@
 package bowling;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -69,5 +73,16 @@ public class BowlingTest {
             player1.pitch();
         }
         System.out.println(player1.toString());
+        System.out.println(player1.getScores());
+    }
+
+    @Test
+    void 존재하지않는_인덱스일땐(){
+        List<Integer> testList = new ArrayList<>();
+        RuntimeException e
+                = assertThrows(RuntimeException.class, () ->{
+            testList.remove(20);
+        });
+        assertThat(e.getMessage()).isEqualTo("Index: 20, Size: 0");
     }
 }
