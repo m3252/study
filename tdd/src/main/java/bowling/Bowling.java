@@ -48,6 +48,7 @@ public class Bowling{
 
     public int downPin(){
         int downPin = (int)((Math.random()*10000) % getPin()+1);
+        //int downPin = 10;
         downPins.add(downPin);
         return downPin;
     }

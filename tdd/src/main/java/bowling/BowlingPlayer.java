@@ -27,38 +27,36 @@ public class BowlingPlayer extends Bowling implements BowlingScore{
     }
 
     public void scoreCalculator(List<Integer> downPins){
-        int frameScore = 0;
-        int frameCheckCount = 0;
-        int frameScoreSum = 0;
-
+        int countByFrame = 0;
+        int scoreByFrame = 0;
+        int leftScore = 0;
+        int rightScore = 0;
         for(int i = 0, n = downPins.size(); i < n; i++){
-            frameCheckCount++;
+            countByFrame++;
 
-            if(downPins.get(i) != -1){
-                frameScoreSum += downPins.get(i);
+            if(downPins.get(i) != -1){ //스트라이크 체크
+                scoreByFrame += downPins.get(i);
             }
 
-            if(frameCheckCount == 1 && frameScoreSum == 10){
-                if(i+3 != downPins.size() -1){
-                    frameScoreSum += downPins.get(i+2);
-                    frameScoreSum += downPins.get(i+3);
+            if(countByFrame == 1 && scoreByFrame == 10){ //스트라이크 체크
+                if((i+3) < downPins.size() -1){ // 마지막 투구 체크
+                    leftScore =  downPins.get(i+2);
+                    rightScore = downPins.get(i+3) == -1 ? 10 : downPins.get(i+3);
+                    scoreByFrame += leftScore + rightScore;
                 }
-                scores.add(frameScoreSum);
-                frameCheckCount = 0;
-                frameScoreSum = 0;
+                scores.add(scoreByFrame);
+                countByFrame = 0;
+                scoreByFrame = 0;
+                i++;
             }
-            else if(frameCheckCount == 2 && frameScoreSum == 10){
-                if(i+1 != downPins.size() -1) {
-                    frameScoreSum += downPins.get(i + 1);
+            else if(countByFrame == 2){
+                if(scoreByFrame == 10 && (i+1) != downPins.size() -1){ // 마지막가 아니고 스페어면
+                    leftScore = downPins.get(i+1);
+                    scoreByFrame += leftScore;
                 }
-                scores.add(frameScoreSum);
-                frameCheckCount = 0;
-                frameScoreSum = 0;
-            }
-            else if(frameCheckCount == 2){
-                scores.add(frameScoreSum);
-                frameCheckCount = 0;
-                frameScoreSum = 0;
+                scores.add(scoreByFrame);
+                countByFrame = 0;
+                scoreByFrame = 0;
             }
         }
         scores.add(downPins.get(20));
@@ -66,10 +64,9 @@ public class BowlingPlayer extends Bowling implements BowlingScore{
 
     @Override
     public String toString() {
-        return "Player{" + "'" + name + '\'' + '}'
-                + " DownPins{" + getDownPins() + '}'
-                + " scores=" +
+        return "선수 이름 : " + "'" + name + '\''
+                + " 투구 당 쓰러트린 핀{" + getDownPins() + '}'
+                + " 점수 = " +
                 getScores().stream().mapToInt(Integer::intValue).sum() + '}';
     }
-
 }
