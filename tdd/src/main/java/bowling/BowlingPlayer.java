@@ -34,11 +34,11 @@ public class BowlingPlayer extends Bowling implements BowlingScore{
         for(int i = 0, n = downPins.size(); i < n; i++){
             countByFrame++;
 
-            if(downPins.get(i) != -1){ //스트라이크 체크
+            if(downPins.get(i) != -1){ // 이전 투구가 스트라이크인지 확인
                 scoreByFrame += downPins.get(i);
             }
 
-            if(countByFrame == 1 && scoreByFrame == 10){ //스트라이크 체크
+            if(countByFrame == 1 && scoreByFrame == 10){ // 스트라이크 체크
                 if((i+3) < downPins.size() -1){ // 마지막 투구 체크
                     leftScore =  downPins.get(i+2);
                     rightScore = downPins.get(i+3) == -1 ? 10 : downPins.get(i+3);
@@ -50,7 +50,7 @@ public class BowlingPlayer extends Bowling implements BowlingScore{
                 i++;
             }
             else if(countByFrame == 2){
-                if(scoreByFrame == 10 && (i+1) != downPins.size() -1){ // 마지막가 아니고 스페어면
+                if(scoreByFrame == 10 && (i+1) != downPins.size() -1){ // 마지막 투구가 아니고 스페어면
                     leftScore = downPins.get(i+1);
                     scoreByFrame += leftScore;
                 }
