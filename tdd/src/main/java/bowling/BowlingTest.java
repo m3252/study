@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -56,8 +57,6 @@ public class BowlingTest {
 
     @Test
     void 넘어진_핀_테스트(){
-        int sum = 0;
-        int count = 0;
         BowlingPlayer player1 = new BowlingPlayer("player1");
         while(player1.getPitchCount() > 0){
             player1.pitch();
@@ -66,23 +65,44 @@ public class BowlingTest {
     }
 
     @Test
-    void 점수테스트(){
+    void 존재하지않는_인덱스일땐(){
+        List<Integer> testList = new ArrayList<>();
+        IndexOutOfBoundsException e
+                = assertThrows(IndexOutOfBoundsException.class, () ->{
+            testList.remove(20);
+        });
+        assertThat(e.getMessage()).isEqualTo("Index: 20, Size: 0");
+    }
+
+    @Test
+    void 점수계산기_테스트(){
         BowlingPlayer player1 = new BowlingPlayer("player1");
         BowlingPlayer player2 = new BowlingPlayer("player2");
         while(player1.getPitchCount() > 0){
             player1.pitch();
         }
         System.out.println(player1.toString());
-        System.out.println(player1.getScores());
+        player1.printScore();
+        System.out.println();
+        System.out.println();
+
+        player2.pitch();
+        player2.pitch();
+        player2.pitch();
+        player2.pitch();
+        player2.pitch();
+        System.out.println(player2.toString());
+        player2.printScore();
     }
 
     @Test
-    void 존재하지않는_인덱스일땐(){
-        List<Integer> testList = new ArrayList<>();
-        RuntimeException e
-                = assertThrows(RuntimeException.class, () ->{
-            testList.remove(20);
-        });
-        assertThat(e.getMessage()).isEqualTo("Index: 20, Size: 0");
+    void 점수표출기테스트(){
+        BowlingPlayer player1 = new BowlingPlayer("문승찬");
+        while(player1.getPitchCount() > 0){
+            player1.pitch();
+        }
+        player1.printScore();
     }
+
+
 }
