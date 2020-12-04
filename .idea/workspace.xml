@@ -22,9 +22,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="계산기 테스트 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/calculator/Calculator.java" afterDir="false" />
+=======
+    <list default="true" id="c8b5b947-065b-41ac-bfe8-2442ba174ee0" name="Default Changelist" comment="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tdd/src/main/java/string_calc/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/tdd/src/main/java/string_calc/StringCalculator.java" afterDir="false" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +92,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+<<<<<<< HEAD
         <option value="JUnit5 Test Class" />
+=======
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -141,6 +151,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="string_calc" />
       <recent name="" />
       <recent name="com.msc.tdd" />
       <recent name="tdd" />
@@ -157,6 +168,7 @@
       <recent name="$PROJECT_DIR$/clean-code" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="string_calc" />
       <recent name="vo" />
       <recent name="" />
       <recent name="com.msc.tdd.vo" />
@@ -166,8 +178,13 @@
       <recent name="chap6" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="JUnit.MoneyTest.testReduceMoney">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
@@ -193,7 +210,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CalculatorTest.히스토리를_지운다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="CalculatorTest.히스토리를_쌓는다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -203,13 +224,21 @@
       </extension>
       <option name="PACKAGE_NAME" value="calculator" />
       <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="히스토리를_지운다" />
+=======
+      <option name="METHOD_NAME" value="히스토리를_쌓는다" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CalculatorTest.히스토리를_검증한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="CalculatorTest.히스토리를_지운다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <module name="tdd" />
       <extension name="coverage">
         <pattern>
@@ -219,27 +248,60 @@
       </extension>
       <option name="PACKAGE_NAME" value="calculator" />
       <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+<<<<<<< HEAD
       <option name="METHOD_NAME" value="히스토리를_검증한다" />
+=======
+      <option name="METHOD_NAME" value="히스토리를_지운다" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MoneyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyTest" />
       <option name="TEST_OBJECT" value="class" />
+=======
+    <configuration name="CalculatorTest.더하기_함수를_제공한다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="calculator" />
+      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorTest" />
+      <option name="METHOD_NAME" value="더하기_함수를_제공한다" />
+      <option name="TEST_OBJECT" value="method" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MoneyTest.testReduceMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MoneyTest" />
       <option name="METHOD_NAME" value="testReduceMoney" />
       <option name="TEST_OBJECT" value="method" />
+=======
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_calc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="string_calc" />
+      <option name="MAIN_CLASS_NAME" value="string_calc.StringCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -252,6 +314,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
       <item itemvalue="JUnit.MoneyTest" />
       <item itemvalue="JUnit.CalculatorTest" />
@@ -264,6 +327,22 @@
         <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="JUnit.MoneyTest" />
         <item itemvalue="JUnit.MoneyTest.testReduceMoney" />
+=======
+      <item itemvalue="Spring Boot.HelloSpringApplication" />
+      <item itemvalue="JUnit.CalculatorTest.더하기_함수를_제공한다" />
+      <item itemvalue="JUnit.CalculatorTest.히스토리를_쌓는다" />
+      <item itemvalue="JUnit.CalculatorTest" />
+      <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
+      <item itemvalue="JUnit.StringCalculatorTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.히스토리를_지운다" />
+        <item itemvalue="JUnit.CalculatorTest.더하기_함수를_제공한다" />
+        <item itemvalue="JUnit.CalculatorTest.히스토리를_쌓는다" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
       </list>
     </recent_temporary>
   </component>
@@ -290,6 +369,7 @@
       <workItem from="1598760675626" duration="11533000" />
       <workItem from="1599376766809" duration="508000" />
       <workItem from="1599377337571" duration="36000" />
+<<<<<<< HEAD
       <workItem from="1599377411862" duration="26000" />
       <workItem from="1599535478501" duration="568000" />
       <workItem from="1599536065673" duration="1274000" />
@@ -297,6 +377,10 @@
       <workItem from="1599792240432" duration="2527000" />
       <workItem from="1600053646592" duration="893000" />
       <workItem from="1600163403654" duration="1614000" />
+=======
+      <workItem from="1599377411862" duration="825000" />
+      <workItem from="1599378246394" duration="18299000" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1595745125002</created>
@@ -431,7 +515,39 @@
       <option name="project" value="LOCAL" />
       <updated>1600054351073</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="20" />
+=======
+    <task id="LOCAL-00021" summary="계산기">
+      <created>1600013706810</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1600013706810</updated>
+    </task>
+    <task id="LOCAL-00022" summary="의식적인 리팩토링 걔산기 예제">
+      <created>1600570706609</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1600570706609</updated>
+    </task>
+    <task id="LOCAL-00023" summary="들여쓰기(2)를 제거하고 else를 제거한 버전">
+      <created>1600571003853</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600571003853</updated>
+    </task>
+    <task id="LOCAL-00024" summary="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거">
+      <created>1600571419652</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600571419652</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,9 +577,20 @@
     <MESSAGE value="spring boot 개념및 활용" />
     <MESSAGE value="mvc, test code 작성" />
     <MESSAGE value="TDD 1 - 11장" />
+<<<<<<< HEAD
     <MESSAGE value="tdd 13장" />
     <MESSAGE value="계산기 테스트 추가" />
     <option name="LAST_COMMIT_MESSAGE" value="계산기 테스트 추가" />
+=======
+    <MESSAGE value="TDD 1 - 11 장" />
+    <MESSAGE value="TDD14장" />
+    <MESSAGE value="계산기 예제" />
+    <MESSAGE value="계산기" />
+    <MESSAGE value="의식적인 리팩토링 걔산기 예제" />
+    <MESSAGE value="들여쓰기(2)를 제거하고 else를 제거한 버전" />
+    <MESSAGE value="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="메소드에서 한 가지 일만 하도록 변경, 로컬 변수 제거" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
   </component>
   <component name="WindowStateProjectService">
     <state x="507" y="161" width="863" height="615" key="#Project_Structure" timestamp="1599376460665">
@@ -475,9 +602,16 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="360" y="199" width="1071" height="772" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599368962396" />
+<<<<<<< HEAD
     <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser" timestamp="1599374743084">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
+=======
+    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser" timestamp="1599967002152">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="216" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1599967002152" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     <state x="709" y="221" key="#com.intellij.ide.util.MemberChooser/0.23.1792.1028@0.23.1792.1028" timestamp="1599374743084" />
     <state x="615" y="284" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1599293810401">
       <screen x="0" y="23" width="1792" height="1028" />
@@ -503,6 +637,7 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="180" y="112" key="DiffContextDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599376336067" />
+<<<<<<< HEAD
     <state x="710" y="228" key="FileChooserDialogImpl" timestamp="1599535818757">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -545,6 +680,47 @@
     <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1599795301335">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+=======
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom" timestamp="1600571271790">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1600571271790" />
+    <state width="1750" height="280" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657998" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center" timestamp="1600571271789">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1600571271789" />
+    <state width="1750" height="280" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657997" />
+    <state width="1750" height="280" key="GridCell.Tab.0.left" timestamp="1600571271788">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1600571271788" />
+    <state width="1750" height="280" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657997" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right" timestamp="1600571271790">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="280" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1600571271790" />
+    <state width="1750" height="280" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1599894657998" />
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom" timestamp="1599971425691">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1599971425691" />
+    <state width="1750" height="280" key="GridCell.Tab.1.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="391" key="GridCell.Tab.1.center" timestamp="1599971425690">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1599971425690" />
+    <state width="1750" height="280" key="GridCell.Tab.1.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="391" key="GridCell.Tab.1.left" timestamp="1599971425690">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1599971425690" />
+    <state width="1750" height="280" key="GridCell.Tab.1.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
+    <state width="1750" height="391" key="GridCell.Tab.1.right" timestamp="1599971425691">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state width="1750" height="391" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1599971425691" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     <state width="1750" height="280" key="GridCell.Tab.1.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597835134474" />
     <state width="1877" height="348" key="GridCell.Tab.1.right/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1599795301335" />
     <state x="434" y="199" key="Maven.ArtifactSearchDialog" timestamp="1599367881558">
@@ -559,6 +735,7 @@
     <state x="410" y="96" key="SettingsEditor" timestamp="1600053669341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< HEAD
     <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599377419598" />
     <state x="410" y="96" key="SettingsEditor/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600053669341" />
     <state x="531" y="254" key="Vcs.Push.Dialog.v2" timestamp="1600054367892">
@@ -566,13 +743,27 @@
     </state>
     <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599376821268" />
     <state x="531" y="254" key="Vcs.Push.Dialog.v2/1920.-169.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1600054367892" />
+=======
+    <state x="383" y="104" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1599896839436" />
+    <state x="383" y="118" key="SettingsEditor/0.23.1792.1028@0.23.1792.1028" timestamp="1599894654030" />
+    <state x="496" y="273" key="Vcs.Push.Dialog.v2" timestamp="1600571425136">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="273" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1600571425136" />
+    <state x="496" y="274" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1599378207649" />
+    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599902710879">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="99" y="100" width="1592" height="920" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599902710879" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1597550662930">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="556" y="369" key="com.intellij.ide.util.TipDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1597550662930" />
-    <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599369651333">
-      <screen x="0" y="23" width="1792" height="1028" />
+    <state x="656" y="334" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1600570488978">
+      <screen x="0" y="0" width="1792" height="1120" />
     </state>
+    <state x="656" y="334" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1600570488978" />
     <state x="656" y="330" width="467" height="346" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.23.1792.1028@0.23.1792.1028" timestamp="1599369651333" />
     <state x="636" y="272" width="649" height="536" key="find.popup" timestamp="1599625540537">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -587,9 +778,25 @@
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="273" y="71" key="new project wizard/0.23.1792.1028@0.23.1792.1028" timestamp="1599367804587" />
+<<<<<<< HEAD
     <state x="561" y="252" width="670" height="676" key="search.everywhere.popup" timestamp="1599374671114">
       <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599374671114" />
+=======
+    <state x="595" y="343" key="refactoring.ChangeSignatureDialog" timestamp="1599901709647">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="595" y="343" key="refactoring.ChangeSignatureDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1599901709647" />
+    <state x="561" y="265" key="run.anything.popup" timestamp="1599894680956">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="265" key="run.anything.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599894680956" />
+    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup" timestamp="1599971339106">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="561" y="249" width="670" height="737" key="search.everywhere.popup/0.0.1792.1120@0.0.1792.1120" timestamp="1599971339106" />
+    <state x="561" y="252" width="670" height="676" key="search.everywhere.popup/0.23.1792.1028@0.23.1792.1028" timestamp="1599894530155" />
+>>>>>>> 572fecc29890f2aa7591948dac5ea010c1b91a6f
   </component>
 </project>
