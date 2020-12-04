@@ -1,4 +1,4 @@
-package vo;
+package money;
 
 public class Money implements Expression{
 

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/clean-code/clean-code.iml" filepath="$PROJECT_DIR$/clean-code/clean-code.iml" />
       <module fileurl="file://$PROJECT_DIR$/effective/effective.iml" filepath="$PROJECT_DIR$/effective/effective.iml" />
+      <module fileurl="file://$PROJECT_DIR$/make-xunit/make-xunit.iml" filepath="$PROJECT_DIR$/make-xunit/make-xunit.iml" />
     </modules>
   </component>
 </project>

@@ -1,4 +1,4 @@
-package vo;
+package money;
 
 public interface Expression {
 
