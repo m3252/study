@@ -10,6 +10,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/tdd/pom.xml" />
+        <option value="$PROJECT_DIR$/../IdeaProjects/live-study/pom.xml" />
       </list>
     </option>
   </component>

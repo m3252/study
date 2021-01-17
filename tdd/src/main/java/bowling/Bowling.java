@@ -29,10 +29,6 @@ public class Bowling{
         bowlingRule(downPin);
     }
 
-    public void setFrame(int frame) {
-        this.frame = frame;
-    }
-
     public int getPin(){
         return pin;
     }

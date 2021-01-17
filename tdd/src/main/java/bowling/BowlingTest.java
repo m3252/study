@@ -4,19 +4,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class BowlingTest {
-
-    @Test
-    void 객체가_존재하는지_확인한다(){
-        Bowling bowling = new Bowling();
-        BowlingPlayer player = new BowlingPlayer("Test");
-    }
 
     @Test
     void 볼링객체의_값을_검증(){
